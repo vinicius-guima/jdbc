@@ -10,7 +10,7 @@ public class TesteRemove {
 		ContatoDao dao = new ContatoDao();
 		Contato contato = new Contato();
 		
-		contato.setId(1);
+		contato.setId(3);
 		
 		dao.remove(contato);
 		System.out.println("contato removido com sucesso!");

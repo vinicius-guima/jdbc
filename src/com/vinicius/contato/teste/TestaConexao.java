@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 import com.vinicius.contato.DAO.ConnectionFactory;
 
-public class TestaConexão {
+public class TestaConexao {
 	
 	public static void main(String[] args) throws SQLException {	
 	

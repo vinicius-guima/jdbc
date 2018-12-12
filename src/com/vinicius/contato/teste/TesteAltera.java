@@ -13,9 +13,9 @@ public class TesteAltera {
 		
 		contato.setNome("Cesar Guima");
 		contato.setEmail("security@hotmail");
-		contato.setEndereco(" nao sei a empresa");
+		contato.setEndereco("Transalarm");
 		contato.setDataNascimento(Calendar.getInstance());
-		contato.setId(3);
+		contato.setId(2);
 		
 		dao.altera(contato);
 		System.out.println("contato alterado!");
